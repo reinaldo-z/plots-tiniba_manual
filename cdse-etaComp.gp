@@ -31,9 +31,9 @@ set xrange [0:5]
 
 set output "cdse-etaComp2.mp"
 p "cdse-hghsp/eta2.kk_yyz_3234_15-spin_scissor_0.84_Nc_16" u 1:(g*$2) w l t "{\\footnotesize hgh spin}"  axis x1y1 ,\
-  "cdse-hghnsp/eta2.kk_yyz_3234_15-nospin_scissor_0.84_Nc_16" u ($1+0.45):(g*$2) w l lw 1 t "{\\footnotesize hgh nospin}"  axis x1y1 ,\
-  "cdse-pspnc/eta2.kk_yyz_3234_15-nospin_scissor_0.84_Nc_14" u ($1+0.45):(g*$2) w l t "{\\footnotesize pspnc}"  axis x1y1 ,\
-  "cdse-pspnc/eta2-vnl.kk_yyz_3234_15-nospin_scissor_0.84_Nc_14" u ($1+0.45):(g*$2) w l t "{\\footnotesize pspnv vnl}"  axis x1y1 ,\
+  "cdse-hghnsp/eta2.kk_yyz_3234_15-nospin_scissor_0.84_Nc_16" u 1:(g*$2) w l lw 1 t "{\\footnotesize hgh nospin}"  axis x1y1 ,\
+  "cdse-pspnc/eta2.kk_yyz_3234_15-nospin_scissor_0.84_Nc_14" u 1:(g*$2) w l t "{\\footnotesize pspnc}"  axis x1y1 ,\
+  "cdse-pspnc/eta2-vnl.kk_yyz_3234_15-nospin_scissor_0.84_Nc_14" u 1:(g*$2) w l t "{\\footnotesize pspnv vnl}"  axis x1y1 ,\
 
 
 
